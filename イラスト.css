@@ -1,1 +1,249 @@
+@charset "utf-8";
 
+
+
+
+/*リセットCSS（sanitize.css）の読み込み
+---------------------------------------------------------------------------*/
+@import url("https://unpkg.com/sanitize.css");
+
+/*lightbox.cssの読み込み
+---------------------------------------------------------------------------*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css);
+
+/*Font Awesomeの読み込み
+---------------------------------------------------------------------------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+/*Google Fontsの読み込み
+---------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+
+
+
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+
+
+
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+  font-family:"Helvetica";
+}
+
+
+
+
+/*table全般の設定*/
+table {border-collapse:collapse;}
+
+/*画像全般の設定*/
+img {border: none;max-width: 50%;height: auto;vertical-align: middle;}
+
+
+
+/*リンクテキスト全般の設定
+---------------------------------------------------------------------------*/
+
+
+a:hover {
+	opacity: 0.8;	/*マウスオン時に60%の透明度にする*/
+}
+
+
+
+
+
+/*Galleryブロック
+---------------------------------------------------------------------------*/
+/*listボックスを囲むボックス*/
+.list-container {
+	display: flex;					/*flexボックスを使う指定*/
+	flex-wrap: wrap;				/*折り返す指定*/
+	justify-content: space-evenly;/*並びかたの種類の指定*/
+}
+
+/*listボックス。１個あたりのボックスの指定です。*/
+.list-container .list {
+	display: flex;					/*flexボックスを使う指定*/
+	flex-direction: column;			/*子要素を縦並びにする*/
+	justify-content: space-evenly;	/*並びかたの種類の指定*/
+	margin-bottom: 10px;			/*ボックス同士の上下間の余白*/
+	border-radius: 10px;			/*角丸のサイズ。中の画像が正方形であれば、10pxを50%にすることで円形にすることもできます。*/
+	overflow: hidden;
+	width: 30%;						/*幅。１行に何個配置したいか、ここの数値を変更してお好みで調整して下さい。*/
+}
+
+
+
+
+
+
+.header {
+  position: fixed; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  z-index: 1; /* 画像より手前に表示 */
+  
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+ padding: 20px 40px; 
+}
+
+
+
+.header-list {
+display: flex;					/*flexボックスを使う指定*/
+justify-content: flex-end;
+
+}
+
+
+
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+
+
+
+
+
+li {
+  list-style: none;
+  float: left;
+ padding: 33px 20px;
+
+}
+
+ a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  font-size: 100%;
+}
+img {
+  max-width: 100%;
+  /* 画像の下にできる隙間を削除 */
+  vertical-align: bottom;
+}
+ul {
+  /* リストの先頭にマーカーを表示しない */
+  list-style: none;
+}
+
+.content {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 100px auto;
+
+
+}
+.title {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+.flex {
+  display: flex;
+}
+.flex .left {
+  width: 40%;
+  
+}
+/*
+align-content: space-between;
+均等配置にして上下を揃える
+*/
+.flex .right {
+  width: 60%;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  
+}
+/*
+「width: calc(100%/3);」で横幅を3等分した後、
+「padding-left: 12px;」で左側にパディングを設定
+*/
+.flex .right li {
+  width: calc(100%/3);
+  padding-left: 80px;
+  
+}
+
+
+
+.class1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+.heading-22 {
+    padding: .5em .7em;
+    border-left: 5px solid #73797d;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+
+.fusen-1 {
+    display: inline-block;
+    position: relative;
+    padding: .5em 1.3em .5em 1em;
+    background-color: #fde0ff;
+    color: #333333;
+}
+
+.fusen-1::before {
+    position: absolute;
+    bottom: -1px;
+    right: 9px;
+    z-index: -1;
+    transform: rotate(5deg);
+    width: 70%;
+    height: 50%;
+    background-color: #d0d0d0;
+    content: "";
+    filter: blur(4px);
+}
