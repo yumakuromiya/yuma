@@ -1,1 +1,192 @@
+@charset "utf-8";
+
+
+
+
+/*リセットCSS（sanitize.css）の読み込み
+---------------------------------------------------------------------------*/
+@import url("https://unpkg.com/sanitize.css");
+
+/*lightbox.cssの読み込み
+---------------------------------------------------------------------------*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css);
+
+/*Font Awesomeの読み込み
+---------------------------------------------------------------------------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+/*Google Fontsの読み込み
+---------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+
+
+
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+
+
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+  font-family:"Helvetica";
+}
+
+li {
+  list-style: none;
+  float: left;
+ padding: 33px 20px;
+}
+
+ a {
+  text-decoration: none;
+}
+
+.header {
+  position: fixed; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  z-index: 1; /* 画像より手前に表示 */
+  
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+ padding: 20px 40px; 
+  
+}
+
+
+.header-list {
+display: flex;					/*flexボックスを使う指定*/
+justify-content: flex-end;
+
+}
+
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+
+.content {
+  text-align: center;
+  padding-top: 120px; 
+}
+
+.content img{
+   width: 20%;
+}
+
+
+.moji {
+	margin: 16px auto;
+	text-align: center;
+	display: block;
+}
+
+.moji .text {
+	text-align: left;
+	display: inline-block;
+}
+
+
+
+ #sukiru ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#sukiru li {
+  width: 200%;
+  text-align: center;
+}
+
+ #sukiru img {
+  width: 30%;
+ }
+
+ .t-s {
+  display: flex;
+  width: 1200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+
+
+/*-------------------------------------------
+intan
+-------------------------------------------*/
+.intan  {
+  display: flex;
+  justify-content: center;
+
+}
+.intan img {
+  width: 300px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+/*背景
+---------------------------------------------------------------------------*/
+.background6-parts {
+	position: relative;
+	background: #eee;	/*背景色*/
+	color: #555;		/*文字色*/
+	padding-top: 5vw;		/*ボックス内の上に空ける余白。お好みで調整して下さい。*/
+	padding-bottom: 5vw;	/*ボックス内の下に空ける余白。お好みで調整して下さい。*/
+	margin-top: 10vw;		/*ボックス外の上に空ける余白。お好みで調整して下さい。*/
+	margin-bottom: 10vw;	/*ボックス外の下に空ける余白。お好みで調整して下さい。*/
+}
+.background6-parts a {
+	color: inherit;
+}
+
+/*以下のheightの行が傾斜の角度です。vwという単位は画面幅に対してで、画面幅100%＝100vwになります。
+つまり、画面幅に対して常に同じ傾斜具合になります。1pxの数字は時々隙間が発生するのでそれを防ぐ為の措置です。
+傾斜（height）を変更したい場合は、下にある「.background6-parts::before」のtopと「.background6-parts::after」のbottomの数字も変更。*/
+.background6-parts::before, .background6-parts::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: calc(5vw + 1px);
+	background: #eee;	/*背景色。上の.background6-partsのbackgroundと揃える。*/
+}
+
+.background6-parts::before {
+	top: -5vw;	/*上の、heightの「5vw」と数字を揃えて先頭にマイナスをつける*/
+	clip-path: polygon(0 100%, 100% 0, 100% 100%);	/*三角形の形を作っています*/
+}
+
+.background6-parts::after {
+	bottom: -5vw;	/*上の、heightの「5vw」と数字を揃えて先頭にマイナスをつける*/
+	clip-path: polygon(0 0, 100% 0, 0 100%);	/*三角形の形を作っています*/
+}
+
+
 
