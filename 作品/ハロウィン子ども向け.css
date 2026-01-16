@@ -1,0 +1,297 @@
+/* コンテナ幅 */
+:root {
+    --width-content: 1080px;
+}
+
+
+
+
+/* ------------------------------ */
+/* リセットCSS */
+/* ------------------------------ */
+
+html {
+    color: #000;
+    background: #fff;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+img {
+    width: 70%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
+/* ------------------------------ */
+/* 全体共通のスタイル */
+/* ------------------------------ */
+
+html {
+    background-color: var(--color-bg-base);
+}
+
+body {
+    line-height: 1.75;
+    font-size: 14px;
+    color: var(--color-font-base);
+    font-family: var(--font-family-base);
+}
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+.c-title-level2,
+.c-title-level3 {
+    font-weight: bold;
+}
+
+/*! 見出し2 */
+.c-title-level2 {
+    font-size: 24px;
+    line-height: 1.55;
+}
+@media screen and (min-width: 768px) {
+    .c-title-level2 {
+        font-size: 32px;
+    }
+}
+
+/*! センター */
+.c-title-level2--center {
+    text-align: center;
+}
+
+/*! カラー(ライト) */
+.c-title-level2--color-light {
+    color: var(--color-font-light);
+}
+
+/*! 見出し3 */
+.c-title-level3 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+    .c-title-level3 {
+        font-size: 22px;
+    }
+}
+
+/*! センター */
+.c-title-level3--center {
+    text-align: center;
+}
+
+/*! カラー(ライト) */
+.c-title-level3--color-light {
+    color: var(--color-font-light);
+}
+
+/* ------------------------------ */
+/* ちょっとした使いわますコード */
+/* ------------------------------ */
+
+.u-visually-hidden {
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    border: 0 !important;
+    padding: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(50%) !important;
+    margin: -1px !important;
+}
+
+/* ------------------------------ */
+/* コンテナ */
+/* ------------------------------ */
+
+.l-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: var(--width-content);
+}
+
+/* ------------------------------ */
+/* header */
+/* ------------------------------ */
+
+.header {
+    background-color: var(--color-bg-light);
+}
+
+.header-inner {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 55px;
+}
+
+.header-logo svg {
+    fill: var(--color-logo);
+}
+
+/* ------------------------------ */
+/* footer */
+/* ------------------------------ */
+
+.footer {
+    padding: 40px 0 24px;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 64px 0 24px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+@media screen and (min-width: 768px) {
+    .footer-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.footer-item {
+    opacity: 0.7;
+    font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+    .footer-item:not(:first-child)::before {
+        content: "/";
+        padding: 0 8px;
+    }
+}
+
+.footer-copyright {
+    margin-top: 8px;
+    display: block;
+    font-size: 14px;
+    opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+    .footer-copyright {
+        margin-top: 0;
+        margin-left: 120px;
+        flex-shrink: 0;
+    }
+}
+
+/* ------------------------------ */
+/* top > kv */
+/* ------------------------------ */
+
+.top-kv {
+    background-color: var(--color-bg-light);
+    padding: 40px 0 24px;
+}
+@media screen and (min-width: 768px) {
+    .top-kv {
+        padding: 64px 0 0;
+    }
+}
+
+
+
+
+
+.top-function {
+    background-color: var(--color-bg-dark);
+    padding: 40px 0;
+}
+@media screen and (min-width: 768px) {
+    .top-function {
+        padding: 0 0 60px;
+    }
+}
+
+.top-function-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+@media screen and (min-width: 768px) {
+    .top-function-list {
+        margin-top: 80px;
+        gap: 64px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .top-function-item {
+        display: flex;
+        gap: 56px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .top-function-item:nth-child(2n) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .top-function-img {
+        width: 55%;
+        flex-shrink: 0;
+    }
+}
+
