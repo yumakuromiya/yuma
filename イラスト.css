@@ -252,5 +252,43 @@ h2 {
 
 
 
+footer {
+  /* background-colorを#2f5167に変更してください */
+  background-color: #b9b5c8;
+  
+  /* colorを#fffにしてください */
+  color: #fff;
+  
+  /* heightを120pxに変更してください */
+  height: 120px;
+  /* 上下左右のpaddingを40pxにしてください */
+  padding: 40px;
+  
+}
+
+/* footer-logoのfont-sizeとfloatを指定してください */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+/* footer-listのfloatを指定してください */
+.footer-list {
+  float: right;
+}
+
+/* footer-listの中のli要素のpadding-bottomを指定してください */
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+body {
+  text-align: center;
+}
+
+
+
+
+
 
 
