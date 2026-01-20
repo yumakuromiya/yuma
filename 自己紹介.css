@@ -192,38 +192,40 @@ intan
 
 
 
-footer {
-  /* background-colorを#2f5167に変更してください */
-  background-color: #b9b5c8;
-  
-  /* colorを#fffにしてください */
-  color: #fff;
-  
-  /* heightを120pxに変更してください */
-  height: 120px;
-  /* 上下左右のpaddingを40pxにしてください */
-  padding: 40px;
-  
+.footer-001 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 10px 10px;
+    background-color: #a1a1a1;
 }
 
-/* 　footer-logoのfont-sizeとfloatを指定してください */
-.footer-logo {
-  font-size: 32px;
-  float: left;
+.footer-001__logo {
+    width: 130px;
+    height: 30px;
 }
 
-/* footer-listのfloatを指定してください */
-.footer-list {
-  float: right;
+.footer-001__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1.5em;
+    list-style-type: none;
+    margin: 0 0 .5em;
+    padding: .5em;
 }
 
-/* footer-listの中のli要素のpadding-bottomを指定してください */
-.footer-list li {
-  padding-bottom: 20px;
+.footer-001__link {
+    color: #fff;
+    font-weight: 200;
+    text-decoration: none;
 }
 
-body {
-  text-align: center;
+.footer-001__copyright {
+    margin: 0;
+    color: #ffffffb3;
+    font-weight: 200;
+    font-size: .8em;
 }
 　
 
