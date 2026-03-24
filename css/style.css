@@ -122,7 +122,7 @@ li {
 ---------------------------------*/
 .main-visual-img {
   height: 700px;
-  background-image: url(インド手最新.jpg);
+  background-image: url(css/インド手最新.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -130,7 +130,7 @@ li {
 
 .sub-main-visual-img {
   height: 180px;
-  background-image: url(インド手最新.jpg);
+  background-image: url(css/インド手最新.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
