@@ -383,11 +383,11 @@ li {
   /* メインビジュアル */
   .main-visual-img {
     height: 60vh;
-    background-image: url(../img/sp_mv.jpg);
+    background-image: url(../img/手トップ.jpg);
   }
   .sub-main-visual-img {
     height: 100px;
-    background-image: url(../img/sp_mv.jpg);
+    background-image: url(../img/手トップ.jpg);
   }
 
   /* プロフィール */
