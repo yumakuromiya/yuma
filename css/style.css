@@ -19,6 +19,10 @@ img {
   border-style: none;
 　}
 
+zibun {
+ max-width: 70%;
+}
+
 ul,
 li {
   list-style: none;
