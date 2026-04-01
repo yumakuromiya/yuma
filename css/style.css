@@ -123,17 +123,19 @@ li {
 .main-visual-img {
   height: 700px;
   background-image: url(../img/手トップ.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
- 
-}
+  background-position: center;
+ }
+
+
 
 .sub-main-visual-img {
   height: 180px;
   background-image: url(../img/手トップ.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position:　center;
+ 
 }
 
 .main-visual-img {
