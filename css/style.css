@@ -123,8 +123,9 @@ li {
 .main-visual-img {
   height: 700px;
   background-image: url(../img/手トップ.jpg);
-　background-repeat: no-repeat;
+background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
  }
 
 
