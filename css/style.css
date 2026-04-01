@@ -229,13 +229,16 @@ background-repeat: no-repeat;
 }
 
 .skill-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+　display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 48%;
   margin-bottom: 50px;
   background-position: center;
 }
+ 
+
 
 .skill-img {
   width: 60px;
