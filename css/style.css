@@ -243,7 +243,8 @@ background-repeat: no-repeat;
 .skill-img {
   width: 60px;
   height: auto;
-  margin-right: 20px;
+  margin-right: 0;      /* ←これ重要🔥 */
+  margin-bottom: 10px;  /* ←これ追加 */
 }
 
 .skill-body {
