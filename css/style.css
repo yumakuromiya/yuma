@@ -198,6 +198,11 @@ background-repeat: no-repeat;
   font-size: 10px;
 }
 
+
+.zibun img {
+  width: 180px !important;
+}
+  
 .zibun {
   text-align: center;
 }
