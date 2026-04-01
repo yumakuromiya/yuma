@@ -20,7 +20,7 @@ img {
 　}
 
 zibun {
- max-width: 70%;
+ max-width: 30%;
  width: 30%;
     display: block; /* imgタグはインライン要素のため、ブロック要素にする */
     margin: 0 auto; /* ブロックレベル要素のものを中央に配置する */
