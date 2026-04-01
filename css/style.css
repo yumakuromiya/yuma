@@ -9,7 +9,7 @@ body {
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  color: #696969;
 }
 
 img {
@@ -110,7 +110,7 @@ li {
   font-size: 13px;
   padding: 5px 0;
   letter-spacing: .1em;
-  color: #fff;
+  color: #696969;
 }
 
 .header-nav-item a:hover {
@@ -173,7 +173,6 @@ li {
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
-}
 
 .works-item:hover {
   opacity: .9;
