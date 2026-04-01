@@ -21,6 +21,9 @@ img {
 
 zibun {
  max-width: 70%;
+ width: 30%;
+    display: block; /* imgタグはインライン要素のため、ブロック要素にする */
+    margin: 0 auto; /* ブロックレベル要素のものを中央に配置する */
 }
 
 ul,
@@ -76,6 +79,8 @@ li {
   z-index: 1;
   width: 100%;
   transition: background-color .6s;
+  white-space: nowrap;
+ 
 }
 
 .header.active {
