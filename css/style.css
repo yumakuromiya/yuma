@@ -247,6 +247,7 @@ background-repeat: no-repeat;
   margin-bottom: 10px;  /* ←これ追加 */
 }
 
+  
 .skill-body {
   flex: 1;
   text-align: center;
