@@ -207,9 +207,12 @@ background-repeat: no-repeat;
   font-size: 10px;
 }
 
+.zibun {
+  text-align: center;
+}
+
 .zibun img {
-    width: 30%;
-  
+  width: 200px;
 }
 
 
