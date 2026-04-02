@@ -98,17 +98,12 @@ puro {
 
 
 .lpmasu img {
-max-width: 7%;
+max-width: 2%;
 text-align: center;
 }
 
   
 
-.lpimg {
- margin: auto;
-display: block;
-max-width: 10%;
-}
 
 .article-body {
   max-width: 720px;
