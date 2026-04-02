@@ -1,1 +1,240 @@
+body {
+  font-family: "Lato","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: .8px;
+  color: #333;
+ }
 
+
+
+
+
+/*--------------------------------
+ヘッダー
+---------------------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  transition: background-color .6s;
+  white-space: nowrap;
+ 
+}
+
+.header.active {
+  background-color: #dcdcdc;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-right: 20px;
+  letter-spacing: .05em;
+}
+
+.header-logo a {
+  color: #fff;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header-nav-item a {
+  font-size: 13px;
+  padding: 5px 0;
+  letter-spacing: .1em;
+  color: #696969;
+}
+
+.header-nav-item a:hover {
+  opacity: .8;
+}
+
+
+/*--------------------------------
+ プロフィール
+---------------------------------*/
+.profile {
+  padding: 50px 0;
+}
+
+.profile-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #737d6d;
+}
+
+.profile-text {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+puro {  
+  max-width: 50%;  
+ }
+
+
+
+
+
+
+.lpmasu img {
+max-width: 10%;
+}
+
+  
+
+.lpimg {
+ margin: auto;
+display: block;
+max-width: 10%;
+}
+
+.article-body {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.article-info-title {
+  font-size: 15px;
+}
+
+.article-body img {
+  margin-bottom: 30px;
+}
+
+.article-body p {
+  margin-bottom: 30px;
+}
+
+.home-link {
+  text-align: center;;
+}
+
+/*media Queries 767
+----------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .pc-only {
+    display: none;
+  }
+
+  .sp-only {
+    display: block;
+  }
+
+  /* 見出し */
+  .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  /* レイアウト */
+  .section {
+    padding: 40px 0;
+  }
+
+  .inner {
+    padding: 0 15px;
+  }
+
+  /* ヘッダー */
+  .header-logo {
+    font-size: 16px;
+  }
+
+  .header-nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .header-nav-item a {
+    font-size: 12px;
+  }
+
+  /* メインビジュアル */
+  .main-visual-img {
+    height: 60vh;
+    background-image: url(../img/インド手最新.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .sub-main-visual-img {
+    height: 100px;
+    background-image: url(../img/インド手最新.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* プロフィール */
+  .profile {
+    padding: 30px 0;
+  }
+  .profile-title {
+    font-size: 20px;
+  }
+
+  /* Works */
+  .works-name {
+    font-size: 10px;
+  }
+
+  .works-list {
+    justify-content: space-between;
+  }
+
+  .works-item {
+    flex: 0 0 48%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  /* Skill */
+  .skill-list {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .skill-item {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .skill-item:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Contact */
+  .contact-item {
+    margin: 0 10px;
+  }
+
+  /* フッター */
+  .footer {
+    padding: 20px 0;
+  }
+}
