@@ -112,7 +112,12 @@ puro {
   max-width: 7%;
 }
 
-  
+ .esute img {
+  display: block;
+  margin: 0 auto;
+  max-width: 7%;
+}
+
 
 
 .article-body {
