@@ -96,10 +96,10 @@ puro {
 
 
 
-
 .lpmasu img {
-max-width: 2%;
-text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 2%;
 }
 
   
