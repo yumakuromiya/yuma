@@ -13,6 +13,16 @@ body {
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   position: fixed;
   top: 0;
