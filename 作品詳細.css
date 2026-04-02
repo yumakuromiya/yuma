@@ -93,7 +93,13 @@ puro {
  }
 
 
+.lpmasu {
+  text-align: center;
+}
 
+.lpmasu img {
+  max-width: 20%;
+}
 
 
 .lpmasu img {
