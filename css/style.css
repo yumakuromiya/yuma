@@ -209,17 +209,7 @@ puro {
 }
 
 
-.zibun img {
-  width: 180px !important;
-}
-  
-.zibun {
-  text-align: center;
-}
 
-.zibun img {
-  width: 200px;
-}
 
 
 /*--------------------------------
@@ -341,6 +331,12 @@ puro {
   max-width: 30%;
   margin-bottom: 20px;
 }
+
+.lpmasu {
+max-width: 10%;
+}
+
+  
 
 .lpimg {
  margin: auto;
