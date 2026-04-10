@@ -394,9 +394,15 @@ max-width: 10%;
     padding: 40px 0;
   }
 
-  .inner {
+
+   .inner {
     padding: 0 15px;
   }
+
+  .header-inner {
+    padding: 15px 15px;
+  }
+
 
   /* ヘッダー */
   .header-logo {
