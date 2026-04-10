@@ -411,14 +411,14 @@ max-width: 10%;
 
   /* メインビジュアル */
   .main-visual-img {
-    height: 60vh;
+    height: 30vh;
     background-image: url(../img/インド手最新.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .sub-main-visual-img {
-    height: 100px;
+    height: 70px;
     background-image: url(../img/インド手最新.jpg);
     background-repeat: no-repeat;
     background-position: center;
