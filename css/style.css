@@ -126,10 +126,10 @@ li {
  メインビジュアル
 ---------------------------------*/
 
-
-.main-visual-img {
-  margin-top: 70px; /* ヘッダーの高さ分 */
+main {
+  padding-top: 70px;
 }
+
 
 .main-visual-img {   
   height: 500px;   
