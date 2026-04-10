@@ -132,6 +132,9 @@ main {
   padding-top: 70px;
 }
 
+.main-visual {
+  width: 100%;
+}
 
 .main-visual-img {   
   height: 500px;   
