@@ -107,6 +107,10 @@ li {
   gap: 20px;           
 }
 
+.header-nav {
+  margin-left: auto;
+}
+
 .header-nav-item a {
   font-size: 13px;
   padding: 5px 0;
@@ -117,6 +121,8 @@ li {
 .header-nav-item a:hover {
   opacity: .8;
 }
+
+
 
 /*--------------------------------
  メインビジュアル
