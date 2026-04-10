@@ -407,6 +407,7 @@ max-width: 10%;
 
   .header-nav-item a {
     font-size: 12px;
+    letter-spacing: 0.2em
   }
 
   /* メインビジュアル */
