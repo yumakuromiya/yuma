@@ -102,6 +102,7 @@ a {
 }
 
 
+
 puro {  
   max-width: 50%;  
  }
@@ -173,8 +174,9 @@ puro {
   }
 
   .inner {
-    padding: 0 15px;
+     padding: 0 20px;
   }
+
 
   /* ヘッダー */
   .header-logo {
@@ -211,6 +213,9 @@ puro {
   }
   .profile-title {
     font-size: 20px;
+  }
+  .profile-text {
+    line-height: 1.8;
   }
 
   /* Works */
