@@ -8,31 +8,6 @@ body {
 
 
 
-.image-container {
-  position: relative; /* 親を基準に配置する */
-  width: 100%;       /* コンテナの幅（任意） */
-  max-width: 500px;   /* 最大幅（任意） */
-}
-
-.image-container img {
-  width: 100%;       /* 画像をコンテナの幅に合わせる */
-  height: auto;
-}
-
-.image-text {
-  position: absolute; /* 親要素に対して絶対配置 */
-  top: 50%;           /* 上からの位置（中央） */
-  left: 50%;          /* 左からの位置（中央） */
-  transform: translate(-50%, -50%); /* 自身のサイズ分だけ引き戻して真ん中に */
-  color: white;       /* 文字色 */
-  font-size: 20px;    /* 文字サイズ */
-  background-color: rgba(0, 0, 0, 0.5); /* 文字に背景をつけて視認性を確保 */
-  padding: 10px;      /* パディング */
-}
-
-
-
-
 
 
 
