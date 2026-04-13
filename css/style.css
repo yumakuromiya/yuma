@@ -150,6 +150,35 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
   object-fit: cover;
 }
 
+
+
+
+#about {
+  display: flex;
+  margin-bottom: 120px;
+}
+#about .img {
+  width: 55%;
+}
+#about .img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+#about .text {
+  width: 45%;
+  padding: 180px 5% 0 5%;
+}
+#about .text p {
+  line-height: 2.2;
+}
+
+
+
+
+
+
+
 /*--------------------------------
  プロフィール
 ---------------------------------*/
