@@ -221,6 +221,10 @@ li {
   animation-delay: 0.6s;
 }
 
+.main-text {
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
 /* アニメーション */
 @keyframes fadeUp {
   from {
