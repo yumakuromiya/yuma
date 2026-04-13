@@ -522,7 +522,7 @@ max-width: 10%;
 
   /* ヘッダー */
   .header-logo {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .header-nav-item:not(:last-child) {
