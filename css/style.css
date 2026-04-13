@@ -277,12 +277,14 @@ li {
   color: #737d6d;
 }
 
+
+
 .profile-text {
   max-width: 500px;
   margin: 0 auto;
-  text-align: left;
+  text-align: justify; /* ←両端揃えでプロっぽい */
+  line-height: 1.8;
 }
-
 
 puro {  
   max-width: 50%;  
