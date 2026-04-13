@@ -203,7 +203,7 @@ li {
 
 .main-visual-img {
   height: 500px;
-  background-image: url(../img/メインビジュアル.jpg);
+  background-image: url(../img/メインビジュアル手.jpg);
   background-size: cover;     /* ←これに戻す🔥 */
   background-position: center;
   background-repeat: no-repeat;
