@@ -195,6 +195,64 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
 
 
 
+.main-visual {
+  position: relative;
+}
+
+.main-visual-img {
+  height: 500px;
+  background-image: url(../img/インド手最新.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* 文字 */
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  color: #fff;
+
+  opacity: 0;
+  animation: fadeUp 1.5s ease forwards;
+}
+
+/* タイトル少し遅らせる */
+.main-text h1 {
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  animation-delay: 0.3s;
+}
+
+/* サブテキストさらに遅らせる */
+.main-text p {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  animation-delay: 0.6s;
+}
+
+/* アニメーション */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+
+
+
+
+
+
 
 /*--------------------------------
  プロフィール
