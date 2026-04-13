@@ -547,6 +547,32 @@ max-width: 10%;
     background-size: cover;
   }
 
+
+  @media screen and (max-width: 767px) {
+
+  .main-visual-img {
+    height: 60vh; /* ←画面に合わせる */
+  }
+
+  .main-text {
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-text h1 {
+    font-size: 24px; /* 小さく */
+    letter-spacing: 0.08em;
+  }
+
+  .main-text p {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+}
+
   /* プロフィール */
   .profile {
     padding: 30px 0;
