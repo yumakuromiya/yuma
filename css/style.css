@@ -17,6 +17,11 @@ body::-webkit-scrollbar {
   display: none;             /* Chrome・Safari */
 }
 
+.header a,
+.header a:hover {
+  text-decoration: none !important;
+}
+
 　
 
 a {
