@@ -203,7 +203,7 @@ li {
 
 .main-visual-img {
   height: 500px;
-  background-image: url(../img/インド手最新.jpg);
+  background-image: url(../img/メインビジュアル.jpg);
   background-size: cover;     /* ←これに戻す🔥 */
   background-position: center;
   background-repeat: no-repeat;
