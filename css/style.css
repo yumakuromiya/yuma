@@ -137,28 +137,17 @@ li {
  メインビジュアル
 ---------------------------------*/
 
-main {
-  padding-top: 70px;
+#mainvisual {
+  margin-bottom: 120px;
 }
-
-.main-visual {
+/*
+メインビジュアルを画面の高さに合わせる
+headerの高さが80pxあるので、100vhから80px分だけマイナスする
+*/
+#mainvisual img {
   width: 100%;
-}
-
-.main-visual-img {   
-  height: 500px;   
-  background-image: url(../img/インド手最新.jpg); 
-  background-repeat: no-repeat;   
-  background-position: center;   
-  background-size: cover; 
-}    
-
-.sub-main-visual-img {   
-  height: 100px;   
-  background-image: url(../img/インド手最新.jpg);  
-  background-repeat: no-repeat;   
-  background-position: center; 
-  background-size: cover;   
+  height: calc(100vh - 80px);
+  object-fit: cover;
 }
 
 /*--------------------------------
