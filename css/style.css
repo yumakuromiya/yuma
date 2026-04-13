@@ -154,19 +154,6 @@ li {
  メインビジュアル
 ---------------------------------*/
 
-#mainvisual {
-  margin-bottom: 120px;
-}
-/*
-メインビジュアルを画面の高さに合わせる
-headerの高さが80pxあるので、100vhから80px分だけマイナスする
-*/
-#mainvisual img {
-  width: 100%;
-  height: calc(100vh - 80px);
-  object-fit: cover;
-}
-
 
 
 
