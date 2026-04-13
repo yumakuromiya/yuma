@@ -17,6 +17,10 @@ body::-webkit-scrollbar {
   display: none;             /* Chrome・Safari */
 }
 
+
+　　/*--------------------------------
+ヘッダー下線消し
+---------------------------------*/
 .header a,
 .header a:hover {
   text-decoration: none !important;
