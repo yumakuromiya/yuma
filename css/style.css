@@ -198,15 +198,15 @@ li {
 }
 
 .main-visual {
-  width: 100%;
-  height: 500px;
+  position: relative;
 }
 
-.main-visual img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;  /* ←これが超重要🔥 */
-  display: block;
+.main-visual-img {
+  height: 500px;
+  background-image: url(../img/インド手最新.jpg);
+  background-size: cover;     /* ←これに戻す🔥 */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
