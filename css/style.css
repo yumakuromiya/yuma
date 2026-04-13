@@ -26,6 +26,21 @@ body::-webkit-scrollbar {
   text-decoration: none !important;
 }
 
+/* ヘッダーの下線を完全に消す（最強版） */
+.header a,
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+
+　　/*--------------------------------
+ヘッダー下線消し
+---------------------------------*/
+
 　
 
 a {
