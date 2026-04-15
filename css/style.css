@@ -456,13 +456,20 @@ puro {
 max-width: 10%;
 }
 
-  
-
 .lpimg {
  margin: auto;
 display: block;
 max-width: 10%;
 }
+
+
+ .esute img {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+}
+
+
 
 .article-body {
   max-width: 720px;
