@@ -452,13 +452,11 @@ puro {
   margin-bottom: 20px;
 }
 
-.lpmasu img {
-max-width: 10%;
-}
 
 
-.lpimg {
-display: block;
+
+.lp　img {
+　display: block;
   margin: 0 auto;
   max-width: 50%;
 }
