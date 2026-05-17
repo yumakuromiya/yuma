@@ -173,6 +173,27 @@ body {
 
 .btn img:hover{
   opacity:0.85;
+
+
+
+  .button-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin:0 auto;
+    padding: .9em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #f59a32;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.button-2:hover {
+    background-color: #e58a22;
+}
   transform: translateY(-3px);
 }
 
