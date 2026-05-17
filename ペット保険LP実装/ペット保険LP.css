@@ -201,7 +201,8 @@ body {
 
 .button-2:hover {
     background-color: #e58a22;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
 }
-  transform: translateY(-3px);
-}
+
 
