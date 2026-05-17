@@ -167,6 +167,15 @@ body {
 }
 
 
+.btn{
+  display:block;
+  text-align:center;
+}
+
+.btn img{
+  width:200px;
+}
+
 
 .button-2 {
     display: flex;
