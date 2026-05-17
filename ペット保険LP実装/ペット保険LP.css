@@ -167,13 +167,13 @@ body {
 }
 
 
-.btn{
-  display:block;
-  text-align:center;
+.btn img{
+  width: 200px;
+  transition: 0.3s;
 }
 
-.btn img{
-  width:200px;
+.btn img:hover{
+  opacity: 0.7;
 }
 
 
