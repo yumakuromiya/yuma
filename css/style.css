@@ -414,6 +414,46 @@ puro {
 }
 
 /*--------------------------------
+ 一番上まで行くやつ
+---------------------------------*/
+html{
+  scroll-behavior:smooth;
+}
+
+.arrow-top{
+  position:fixed;
+  right:35px;
+  bottom:35px;
+
+  width:60px;
+  height:60px;
+}
+
+.arrow-top span{
+  display:block;
+
+  width:20px;
+  height:20px;
+
+  border-top:3px solid #111;
+  border-left:3px solid #111;
+
+  transform:rotate(45deg);
+
+  margin:auto;
+  margin-top:18px;
+
+  transition:.3s;
+}
+
+.arrow-top:hover span{
+  transform:rotate(45deg) translate(-4px,-4px);
+}
+
+
+
+
+/*--------------------------------
  フッター
 ---------------------------------*/
 .footer {
